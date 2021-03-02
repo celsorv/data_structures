@@ -6,6 +6,8 @@
  * Data structures discipline
  */
 
+#ifndef QUEUE_H      // Include this block only if QUEUE_H is not defined
+#define QUEUE_H
 
 #include "item_type.h"
 
@@ -31,3 +33,4 @@ public:
     ItemType dequeue();
 
 };
+#endif  // end of " #ifndef "
