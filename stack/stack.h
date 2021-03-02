@@ -6,6 +6,9 @@
  * Data structures discipline
  */
 
+#ifndef STACK_H      // Include this block only if STACK_H is not defined
+#define STACK_H
+
 #include "item_type.h"
 
 const int MAX_ITEMS = 100;
@@ -29,3 +32,4 @@ public:
     ItemType pop();
 
 };
+#endif  // end of " #ifndef "
