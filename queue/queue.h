@@ -1,5 +1,5 @@
 /*********
- * Queeue using a circular array
+ * Queue using a circular array
  * 
  * UNIVESP - www.univesp.br
  * Computer Engineering
